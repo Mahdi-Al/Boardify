@@ -1,7 +1,11 @@
 import Logo from "@/components/logo";
 import MobileSidebar from "./Mobile-Sidebar";
 import { Button } from "@/components/ui/button";
-import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
+import {
+  OrganizationSwitcher,
+  UserButton,
+  OrganizationList,
+} from "@clerk/nextjs";
 import { Plus } from "lucide-react";
 export default function Navbar() {
   return (
