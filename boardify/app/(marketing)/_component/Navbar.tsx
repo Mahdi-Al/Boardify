@@ -1,4 +1,4 @@
-import { Logo } from "@/components/logo";
+import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
         <Logo />
         <section className="space-x-4 md:block md:w-auto flex items-center justify-between w-full">
           <Button variant={"outline"} size={"sm"} asChild>
-            <Link href="/sign-in">login</Link>
+            <Link href="/sign-in">sign-in</Link>
           </Button>
 
           <Button size={"sm"} asChild>
